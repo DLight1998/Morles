@@ -14,6 +14,8 @@ user privacy.
 TODO: Write this
 
 ## Requirements
+* PHP: 7.4 or above
+
 TODO: Write this
 
 ## How to use

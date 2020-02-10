@@ -1,18 +1,14 @@
 <?php
+/**
+ * The context to use when handling HTTP requests.
+ */
 class HttpContext implements MiddlewareContext {
     /**
      * The HTTP request received.
      */
-    private Request $request;
+    public Request $request;
     /**
      * The HTTP response to be sent after processing.
      */
-    private Response $response;
-
-    function getRequest() {
-        return $this->request;
-    }
-    function getResponse() {
-        return $this->response;
-    }
+    public Response $response;
 }
